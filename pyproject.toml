@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "sarase"
-version = "0.1.5"
+version = "0.1.7"
 description = ""
 authors = ["Alec Heckert <alecheckert@gmail.com>"]
 include = ["include/sarase.h", "src/add.cpp", "src/module.cpp"]
@@ -9,7 +9,7 @@ include = ["include/sarase.h", "src/add.cpp", "src/module.cpp"]
 python = "^3.8"
 numpy = "^1.22.1"
 pybind11 = "^2.9.0"
-setuptools = "^41"
+setuptools = "^60"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
@@ -18,5 +18,5 @@ pytest = "^5.2"
 script = "build.py"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
+requires = ["poetry-core>=1.0.0", "pybind11>=2.6", "setuptools>=60"]
 build-backend = "poetry.core.masonry.api"
