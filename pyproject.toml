@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "sarase"
-version = "0.1.4"
+version = "0.1.5"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Alec Heckert <alecheckert@gmail.com>"]
 include = ["include/sarase.h", "src/add.cpp", "src/module.cpp"]
 
 [tool.poetry.dependencies]
