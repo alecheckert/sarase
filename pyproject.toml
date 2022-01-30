@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "sarase"
+version = "0.1.4"
+description = ""
+authors = ["Your Name <you@example.com>"]
+include = ["include/sarase.h", "src/add.cpp", "src/module.cpp"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.22.1"
+pybind11 = "^2.9.0"
+setuptools = "^41"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.build]
+script = "build.py"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
