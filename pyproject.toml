@@ -6,13 +6,13 @@ authors = ["Alec Heckert <alecheckert@gmail.com>"]
 include = ["include/sarase.h", "src/add.cpp", "src/module.cpp"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-numpy = "^1.22.1"
-pybind11 = "^2.9.0"
+python = ">=3.7"
+numpy = ">=1"
+pybind11 = ">=2.6.0"
 setuptools = "^60"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
+pytest = ">=5.2"
 
 [tool.poetry.build]
 script = "build.py"
